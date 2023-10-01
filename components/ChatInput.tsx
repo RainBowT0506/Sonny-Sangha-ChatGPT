@@ -2,7 +2,8 @@
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import React, { useState } from "react";
 import { useSession } from "next-auth/react";
-import { serverTimestamp } from "firebase/firestore";
+import { addDoc, collection, serverTimestamp } from "firebase/firestore";
+import { db } from "../firebase";
 
 type Props = {
   chatId: string;
@@ -28,7 +29,10 @@ const sendMessage = async( e : React.FormEvent<HTMLFormElement>) =>{
       avatar:session?.user?.image! || `https:ui-avatars.com/api/?name=${session?.user?.name}`,
     }
   }
- 
+
+  await addDoc(
+    collection(db,'users',session?.user?.email!,'chats',chatId,'messages'),message);
+
 };
 
   return (
