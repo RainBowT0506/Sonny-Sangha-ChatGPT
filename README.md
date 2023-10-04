@@ -1,3 +1,16 @@
+Note:
+[[React.js] [Video Note] 🔴 Let’s build ChatGPT Messenger 2.0 with REACT! (Next.js 13, Firebase, Tailwind CSS, TypeScript](https://hackmd.io/JO2igBx7RD-k5rx8-AHTUA)
+
+LoginPage
+![image](https://github.com/RainBowT0506/Sonny-Sangha-ChatGPT/assets/109667537/f2a379ce-04da-4fa8-96e5-d7cca82bae9b)
+
+HomePage
+![image](https://github.com/RainBowT0506/Sonny-Sangha-ChatGPT/assets/109667537/d5eb93c1-3fa3-46f8-9ae4-e22f945b5104)
+
+ChatPage
+![image](https://github.com/RainBowT0506/Sonny-Sangha-ChatGPT/assets/109667537/6dbfb4c4-9af7-408c-b9ef-e1a74ce712fa)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
