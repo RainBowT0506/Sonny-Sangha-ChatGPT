@@ -20,9 +20,8 @@ function ChatInput({ chatId }: Props) {
   const sendMessage = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!prompt) return;
-
     const input = prompt.trim();
-    console.log(input);
+    // console.log(input);
     setPrompt("");
 
     const message: Message = {
