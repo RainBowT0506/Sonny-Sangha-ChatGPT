@@ -2,7 +2,7 @@ import { PlusIcon } from "@heroicons/react/24/outline";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
-import { db } from "../firebase";
+import { db } from "../../firebase";
 
 function NewChat() {
   const router = useRouter();

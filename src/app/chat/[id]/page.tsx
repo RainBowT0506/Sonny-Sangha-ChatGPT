@@ -1,6 +1,6 @@
 import React from "react";
-import Chat from "../../../../components/Chat";
-import ChatInput from "../../../../components/ChatInput";
+import Chat from "../../../components/Chat";
+import ChatInput from "../../../components/ChatInput";
 
 type Props = {
   params: {
